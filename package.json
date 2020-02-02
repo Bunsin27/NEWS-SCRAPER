@@ -1,0 +1,27 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "All the News That's Fit to Scrape",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjgardner/news-scraper.git"
+  },
+  "author": "Mark Gardner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjgardner/news-scraper/issues"
+  },
+  "homepage": "https://github.com/mjgardner/news-scraper#readme",
+  "dependencies": {
+    "all": "0.0.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.0"
+  }
+}
